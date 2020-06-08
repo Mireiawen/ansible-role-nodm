@@ -1,0 +1,15 @@
+---
+## /* vim: set tabstop=2 softtabstop=2 shiftwidth=2 expandtab smarttab autoindent: */
+
+- name: "Install nodm"
+  package:
+    name: "{{ nodm_package }}"
+    state: "{{ nodm_state }}"
+
+- name: "Configure nodm"
+  template:
+    src: "nodm.default"
+    dest: "{{ nodm_config_file }}"
+    owner: "root"
+    group: "root"
+    mode: "u=rw,go=r"

@@ -1,0 +1,15 @@
+---
+## /* vim: set tabstop=2 softtabstop=2 shiftwidth=2 expandtab smarttab autoindent: */
+
+nodm_package: "nodm"
+nodm_state: "latest"
+nodm_config_file: "/etc/default/nodm"
+
+nodm_enabled: "true"
+nodm_user: "root"
+nodm_first_vt: 7
+nodm_xsession: "/etc/X11/Xsession"
+nodm_options: ""
+nodm_x_options: "'-nolisten tcp'"
+nodm_min_session_time: 60
+nodm_x_timeout: 300

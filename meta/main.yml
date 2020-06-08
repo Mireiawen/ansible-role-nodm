@@ -1,0 +1,51 @@
+---
+## /* vim: set tabstop=2 softtabstop=2 shiftwidth=2 expandtab smarttab autoindent: */
+
+galaxy_info:
+  author: "Mira \"Mireiawen\" Manninen"
+  role_name: "nodm"
+  description: "Install the NoDm display manager"
+
+  license: "MIT"
+
+  min_ansible_version: 2.9
+
+  platforms:
+  - name: "ArchLinux"
+    versions:
+    - "any"
+  - name: "Debian"
+    versions:
+    # "8 Jessie"
+    - "jessie"
+    # "9 Stretch"
+    - "stretch"
+    # "10 Buster"
+    - "buster"
+  - name: "Fedora"
+    versions:
+    - "26"
+    - "27"
+    - "28"
+    - "29"
+    - "30"
+    - "31"
+  # RedHat Enterprise Linux
+  - name: "EL"
+    versions:
+    - "7"
+  - name: "Ubuntu"
+    versions:
+    # "14.04 Trusty"
+    - "trusty"
+    # "16.04 Xenial"
+    - "xenial"
+    # "20.04 Focal"
+    - "focal"
+
+  galaxy_tags:
+  - "linux"
+  - "displaymanager"
+  - "dm"
+
+dependencies: []
